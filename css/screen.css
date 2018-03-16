@@ -8,7 +8,7 @@ html {
     font-size: 16px;
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
-    color: #111;
+    color: #454B4D;
     padding: 48px 24px 24px;
 }
 
@@ -25,13 +25,13 @@ body {
  */
 
 ::-moz-selection {
-    background: #e85e00;
+    background: #0A4A66;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #e85e00;
+    background: #0A4A66;
     color: white;
     text-shadow: none;
 }
@@ -53,7 +53,14 @@ img {
     Default markup for typographic elements
 */
 
+h1,
+h2,
+h3{
+    color: #707070;
+}
+
 h1 {
+    color: #000;
     font-size: 36px;
     line-height: 40px;
     margin: 0 0 24px;
@@ -127,18 +134,18 @@ hr {
 }
 
 a {
-    color: RoyalBlue;
+    color: #1282B3;
     transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: BlueViolet;
+    color: #12B382;
 }
 
 a:hover,
 a:focus {
-    color: Crimson;
+    color: #00A0E6;
 }
 
 /* Small devices (landscape phones, 576px and up) */
