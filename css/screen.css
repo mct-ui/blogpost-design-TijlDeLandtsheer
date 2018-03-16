@@ -178,7 +178,6 @@ figcaption {
     font-size: 12px;
     line-height: 16px;
     padding-top: 8px;
-    color: Grey;
 }
 
 hr {
@@ -216,7 +215,7 @@ a:focus {
     width: 56px;
     height: 56px;
     border-radius: 100%;
-    
+
 }
 
 
