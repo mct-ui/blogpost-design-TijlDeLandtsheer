@@ -12,30 +12,29 @@
 
 @font-face {
     font-family: "Droid Serif";
-    font-weight: 700;
-    font-style: bold;
-    src: url("../fonts/DroidSerif-Bold-webfont.woff") format(woff);
-}
-
-@font-face {
-    font-family: "Droid Serif";
     font-weight: 400;
-    src: url("../fonts/DroidSerif-Regular-webfont.woff") format(woff);
-}
-
-@font-face {
-    font-family: "Droid Serif";
-    font-weight: 400;
-    src: url("../fonts/DroidSerif-Italic-webfont.woff") format(woff);
+    src: url("../fonts/DroidSerif-Regular-webfont.woff") format("woff")
 }
 
 @font-face {
     font-family: "Droid Serif";
     font-weight: 700;
-    src: url("../fonts/DroidSerif-BoldItalic-webfont.woff") format(woff);
+    src: url("../fonts/DroidSerif-Bold-webfont.woff") format("woff")
 }
 
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/DroidSerif-Italic-webfont.woff") format("woff")
+}
 
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 700;
+    font-style: italic;
+    src: url("../fonts/DroidSerif-BoldItalic-webfont.woff") format("woff")
+}
 
 /*
     Elements: Page
@@ -43,17 +42,23 @@
     Default markup for page level elements
 */
 
-
-
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Droid Serif";
+    /* font-family: "Inter-UI", Helvetica, arial, sans-serif;*/
+    font-family: "Droid Serif", Georgia, serif;
     color: #454B4D;
     padding: 48px 24px 24px;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing:grayscale;
+    -moz-osx-font-smoothing: grayscale;
 }
+
+
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
 
 body {
     max-width: 42em;
@@ -197,6 +202,23 @@ a:hover,
 a:focus {
     color: #00A0E6;
 }
+/*
+    Components author
+*/
+
+.c-author{
+    display: flex;
+    align-items: center;
+
+}
+
+.c-author__image{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 
